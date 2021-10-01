@@ -1,0 +1,178 @@
+.header{
+  display: block;
+  background-color: bisque;
+  padding-top: 0.5rem;
+  height: 60px;
+}
+.head{
+  margin-top:-0.18rem;
+}
+.logo-img {
+  float: left;
+}
+
+.cart-img {
+  float: right;
+  margin-top: 0.5rem;
+  font-size: 34px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  font-family: arial;
+  float: left;
+  position: center;
+  margin: 50px 55px 0px 50px;
+}
+
+.orgprice {
+  color: grey;
+  text-decoration: line-through;
+  float: left;
+  margin-top: 1.4rem;
+  margin-right: -7rem;
+
+}
+.card-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price{
+  float: right;
+  padding-right: 3rem;
+}
+
+.card img {
+  max-width: 300px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-cart {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.inc-dec{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  font-size: 18px;
+}
+
+.qty-count{
+  border: 0.1px solid black;
+  border-color: black;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color:white;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.cart-count{
+  
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+ 
+.cart-billing{
+  display: flex;
+   margin:1rem;
+} 
+
+.cart-items{
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.pricing{
+  margin-top: 10.5rem;
+  width:40%;
+  background-color: rgba(173, 216, 230, 0.884);
+  border: 1px solid #000;
+}
+
+.bth-btn{
+  border:rgba(0, 0, 0, 0.486);
+  color: white;
+  margin-top: 1.5rem;
+  background-color: black;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.item-list{
+  width:80%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 0.5rem;
+}
+
+.td-inc-dec{
+  padding: 0.5rem;
+}
+
+.price-tbl{
+  width:85%;
+}
+
+.price-tbl td{
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+hr{
+  margin-top: -0.7rem;
+}
+
+.disc{
+  color: green;
+}
+
+.items-tbl{
+  margin-top: -0.5rem;
+  border: 0.1px solid black;
+}
+
+.hr-bill{
+  margin-top: 0.5rem;
+}
+
+.add-more{
+  margin-top: 3rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
